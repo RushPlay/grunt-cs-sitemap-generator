@@ -1,5 +1,5 @@
 {
-  "name": "cs-sitemap-generator",
+  "name": "grunt-cs-sitemap-generator",
   "version": "0.0.1",
   "description": "Generation of xml sitemap for angular 1",
   "main": "index.js",
