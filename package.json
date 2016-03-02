@@ -1,0 +1,21 @@
+{
+  "name": "cs-sitemap-generator",
+  "version": "0.0.1",
+  "description": "Generation of xml sitemap for angular 1",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Denis Dubinin",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.5.1",
+    "promise-all": "^1.0.0",
+    "request": "^2.69.0",
+    "sitemap": "^1.5.0",
+    "yargs": "^4.2.0"
+  },
+  "devDependencies": {
+    "grunt": "^0.4.5"
+  }
+}
