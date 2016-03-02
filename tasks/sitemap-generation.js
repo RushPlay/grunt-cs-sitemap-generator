@@ -21,6 +21,7 @@ module.exports = function(grunt) {
       })
       .catch(function (err) {
         grunt.log.errorlns('Error found ' + (+new Date() - time) / 1000 + ' sec');
+        grunt.log.errorlns(err.stack);
         grunt.fail.warn(err);
       });
   });
