@@ -1,7 +1,12 @@
 'use strict';
 
+/**
+ * @module Sitemap generator
+ * @description Generation of sitemaps for casinosaga projects
+ */
 var reader = require('../lib/reader'),
     creator = require('../lib/creator'),
+    processing = require('../lib/processing'),
     writer = require('../lib/writer'),
     time = +new Date();
 
@@ -10,10 +15,11 @@ module.exports = function(grunt) {
     var done = this.async(),
         options = this.options();
 
-    grunt.log.writeln('start generation...');
+    grunt.log.writeln('start sitemaps generation...');
 
     reader.work(options.configFilePath)
       .then(creator.work)
+      .then(processing.work)
       .then(writer.work)
       .then(function () {
         grunt.log.writeln('All done ' + (+new Date() - time) / 1000 + ' sec');
