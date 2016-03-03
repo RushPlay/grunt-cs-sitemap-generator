@@ -20,14 +20,14 @@
       "versions": {
         "www":
           [
-            {"pattern": "/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "terms-and-conditions/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "bonus-terms/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "we-chat/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "games/slots/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "games/roulette/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "games/blackjack/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "games/video-poker/", "changefreq": "monthly", "priority": 0.7},
+            {"pattern": "/", "changefreq": "daily", "priority": 1},
+            {"pattern": "terms-and-conditions/", "changefreq": "weekly", "priority": 0.4},
+            {"pattern": "bonus-terms/", "changefreq": "weekly", "priority": 0.4},
+            {"pattern": "we-chat/", "changefreq": "weekly", "priority": 0.4},
+            {"pattern": "games/slots/", "changefreq": "daily", "priority": 0.9},
+            {"pattern": "games/roulette/", "changefreq": "daily", "priority": 0.9},
+            {"pattern": "games/blackjack/", "changefreq": "daily", "priority": 0.9},
+            {"pattern": "games/video-poker/", "changefreq": "daily", "priority": 0.9},
             {
               "api": {
                 "pathname": "games",
@@ -37,8 +37,8 @@
                 }
               },
               "pattern": "games/slots/:provider/:key/",
-              "changefreq": "monthly",
-              "priority": 0.7
+              "changefreq": "weekly",
+              "priority": 0.8
             },
             {
               "api": {
@@ -49,8 +49,8 @@
                 }
               },
               "pattern": "games/roulette/:provider/:key/",
-              "changefreq": "monthly",
-              "priority": 0.7
+              "changefreq": "weekly",
+              "priority": 0.8
             },
             {
               "api": {
@@ -61,8 +61,8 @@
                 }
               },
               "pattern": "games/blackjack/:provider/:key/",
-              "changefreq": "monthly",
-              "priority": 0.7
+              "changefreq": "weekly",
+              "priority": 0.8
             },
             {
               "api": {
@@ -73,8 +73,8 @@
                 }
               },
               "pattern": "games/video-poker/:provider/:key/",
-              "changefreq": "monthly",
-              "priority": 0.7
+              "changefreq": "weekly",
+              "priority": 0.8
             },
             {
               "api": {
@@ -85,22 +85,22 @@
                 }
               },
               "pattern": "games/table-games/:provider/:key/",
-              "changefreq": "monthly",
-              "priority": 0.7
+              "changefreq": "weekly",
+              "priority": 0.8
             },
-            {"pattern": "help/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "me/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "messages/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "responsible-gaming/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "hall-of-fame/", "changefreq": "monthly", "priority": 0.7},
-            {"pattern": "concept/", "changefreq": "monthly", "priority": 0.7}
+            {"pattern": "help/", "changefreq": "monthly", "priority": 0.5},
+            {"pattern": "me/", "changefreq": "monthly", "priority": 0.5},
+            {"pattern": "messages/", "changefreq": "monthly", "priority": 0.5},
+            {"pattern": "responsible-gaming/", "changefreq": "monthly", "priority": 0.5},
+            {"pattern": "hall-of-fame/", "changefreq": "monthly", "priority": 0.5},
+            {"pattern": "concept/", "changefreq": "monthly", "priority": 0.5}
           ],
         "m": 
         [
-          {"pattern": "/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "terms-and-conditions/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "bonus-terms/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "we-chat/", "changefreq": "monthly", "priority": 0.7},
+          {"pattern": "/", "changefreq": "daily", "priority": 1.0},
+          {"pattern": "terms-and-conditions/", "changefreq": "monthly", "priority": 0.4},
+          {"pattern": "bonus-terms/", "changefreq": "monthly", "priority": 0.4},
+          {"pattern": "we-chat/", "changefreq": "monthly", "priority": 0.4},
           {
             "api": {
               "pathname": "games/mobile",
@@ -109,15 +109,15 @@
               }
             },
             "pattern": "games/:categoryName/:provider/:key/",
-            "changefreq": "monthly",
-            "priority": 0.7
+            "changefreq": "daily",
+            "priority": 0.8
           },
-          {"pattern": "help/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "me/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "messages/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "responsible-gaming/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "hall-of-fame/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "concept/", "changefreq": "monthly", "priority": 0.7}
+          {"pattern": "help/", "changefreq": "weekly", "priority": 0.5},
+          {"pattern": "me/", "changefreq": "weekly", "priority": 0.5},
+          {"pattern": "messages/", "changefreq": "monthly", "priority": 0.5},
+          {"pattern": "responsible-gaming/", "changefreq": "monthly", "priority": 0.5},
+          {"pattern": "hall-of-fame/", "changefreq": "monthly", "priority": 0.5},
+          {"pattern": "concept/", "changefreq": "monthly", "priority": 0.5}
         ]
       },
       "languages": ["en", "sv", "no", "fi", "de"]
@@ -128,14 +128,14 @@
       "versions": {
         "www": 
         [
-          {"pattern": "/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "terms-and-conditions/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "bonus-terms/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "we-chat/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "games/slots/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "games/roulette/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "games/blackjack/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "games/video-poker/", "changefreq": "monthly", "priority": 0.7},
+          {"pattern": "/", "changefreq": "daily", "priority": 1},
+          {"pattern": "terms-and-conditions/", "changefreq": "weekly", "priority": 0.4},
+          {"pattern": "bonus-terms/", "changefreq": "weekly", "priority": 0.4},
+          {"pattern": "we-chat/", "changefreq": "weekly", "priority": 0.4},
+          {"pattern": "games/slots/", "changefreq": "daily", "priority": 0.9},
+          {"pattern": "games/roulette/", "changefreq": "daily", "priority": 0.9},
+          {"pattern": "games/blackjack/", "changefreq": "daily", "priority": 0.9},
+          {"pattern": "games/video-poker/", "changefreq": "daily", "priority": 0.9},
           {
             "api": {
               "pathname": "games",
@@ -145,8 +145,8 @@
               }
             },
             "pattern": "games/slots/:provider/:key/",
-            "changefreq": "monthly",
-            "priority": 0.7
+            "changefreq": "weekly",
+            "priority": 0.9
           },
           {
             "api": {
@@ -157,8 +157,8 @@
               }
             },
             "pattern": "games/roulette/:provider/:key/",
-            "changefreq": "monthly",
-            "priority": 0.7
+            "changefreq": "weekly",
+            "priority": 0.9
           },
           {
             "api": {
@@ -169,8 +169,8 @@
               }
             },
             "pattern": "games/blackjack/:provider/:key/",
-            "changefreq": "monthly",
-            "priority": 0.7
+            "changefreq": "weekly",
+            "priority": 0.9
           },
           {
             "api": {
@@ -181,8 +181,8 @@
               }
             },
             "pattern": "games/video-poker/:provider/:key/",
-            "changefreq": "monthly",
-            "priority": 0.7
+            "changefreq": "weekly",
+            "priority": 0.9
           },
           {
             "api": {
@@ -193,15 +193,15 @@
               }
             },
             "pattern": "games/table-games/:provider/:key/",
-            "changefreq": "monthly",
-            "priority": 0.7
+            "changefreq": "weekly",
+            "priority": 0.9
           },
-          {"pattern": "help/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "me/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "messages/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "responsible-gaming/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "hall-of-fame/", "changefreq": "monthly", "priority": 0.7},
-          {"pattern": "concept/", "changefreq": "monthly", "priority": 0.7}
+          {"pattern": "help/", "changefreq": "monthly", "priority": 0.4},
+          {"pattern": "me/", "changefreq": "monthly", "priority": 0.4},
+          {"pattern": "messages/", "changefreq": "monthly", "priority": 0.4},
+          {"pattern": "responsible-gaming/", "changefreq": "monthly", "priority": 0.4},
+          {"pattern": "hall-of-fame/", "changefreq": "monthly", "priority": 0.4},
+          {"pattern": "concept/", "changefreq": "monthly", "priority": 0.4}
         ]
       },
       "languages": ["ja"]
